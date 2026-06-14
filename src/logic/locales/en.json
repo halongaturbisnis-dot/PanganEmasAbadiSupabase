@@ -1,0 +1,503 @@
+{
+  "common": {
+    "welcome": "Welcome to VibeApp",
+    "getStarted": "Get Started",
+    "explore": "Explore Sample Module",
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "home": "Home",
+    "architecture": "Architecture",
+    "processing": "Processing...",
+    "yes": "Yes",
+    "no": "No",
+    "saveChanges": "Save Changes",
+    "autosaved": "Autosaved",
+    "requiredFields": "Required fields are marked with an asterisk",
+    "search": "Search records...",
+    "filters": "Filters",
+    "prev": "Prev",
+    "next": "Next",
+    "confirm": "Confirm",
+    "approxRadius": "Approximately Radius: {radius} meter",
+    "loadingAnimation": "Loading Animation...",
+    "barcode": "Barcode"
+  },
+  "nfc": {
+    "title": "NFC Reader",
+    "prompt": "Tap your NFC tag",
+    "scanning": "Scanning...",
+    "unsupported": "NFC is not supported on this browser.",
+    "error": "Failed to read NFC tag. Make sure NFC is enabled.",
+    "success": "NFC Tag Read Successfully",
+    "data": "Tag Data"
+  },
+  "voice": {
+    "tts": {
+      "play": "Play Audio",
+      "stop": "Stop Audio",
+      "reading": "Reading text..."
+    },
+    "stt": {
+      "start": "Start Recording",
+      "stop": "Stop Recording",
+      "listening": "Listening...",
+      "error": "Microphone permission denied or not supported."
+    }
+  },
+  "annotation": {
+    "title": "Image Annotation",
+    "save": "Save Annotation",
+    "pen": "Pen",
+    "brush": "Brush",
+    "size": "Size",
+    "color": "Color",
+    "clear": "Clear All",
+    "undo": "Undo",
+    "fullscreen": "Fullscreen View",
+    "opacity": "Opacity",
+    "upload": "Upload Image"
+  },
+  "location": {
+    "highIntegrity": "High Integrity Location",
+    "status": "GPS Status",
+    "detecting": "Detecting high accuracy location...",
+    "gpsActive": "GPS Active",
+    "signalFallback": "Signal / Tower Fallback",
+    "fakeDetected": "Potential fake location/VPN detected!",
+    "noPermission": "Location permission denied.",
+    "accuracy": "Accuracy: {accuracy}m"
+  },
+  "time": {
+    "actual": "Actual Network Time",
+    "fetching": "Syncing with global time server...",
+    "syncSuccess": "Time synced successfully",
+    "syncFailed": "Sync failed, using device clock",
+    "drift": "Clock drift: {drift}ms",
+    "absoluteUtc": "Absolute UTC Time",
+    "deviceTz": "Device Timezone",
+    "integrity": "Timezone Integrity",
+    "integrityOk": "Normal",
+    "integrityWarn": "Potentially Manipulated",
+    "mismatchDesc": "Timezone mismatch detected with actual time server."
+  },
+  "map": {
+    "title": "Visit Monitoring",
+    "route": "Visit Route",
+    "pointDetail": "Visit Point Details",
+    "visitedAt": "Visited at",
+    "noPoints": "No points recorded for this route.",
+    "location": "Location",
+    "back": "Back to List",
+    "inputCoordinate": "Coordinate",
+    "invalidFormat": "Invalid format. Use 'Latitude, Longitude'",
+    "loadingAddress": "Loading address...",
+    "setRadius": "Radius & Position",
+    "inputRadius": "Input Radius (meters)",
+    "radiusLabel": "Radius (Meters)",
+    "latLongRad": "Lat, Long, Rad",
+    "representative": "Representative",
+    "totalVisits": "Total Visits",
+    "completion": "Completion",
+    "totalTime": "Total Time",
+    "inRange": "In-Range",
+    "visitTimeline": "Visit Timeline",
+    "exportPdf": "Export PDF",
+    "teamOverview": "Team Overview",
+    "activityToday": "Activity Today",
+    "openGoogleMaps": "Open in Google Maps",
+    "startVisit": "Start (First Visit)",
+    "endVisit": "End (Last Visit)",
+    "path": "Path",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "inputManually": "Input Lat Long Manually",
+    "allowPopups": "Please allow popups for this site to preview the PDF.",
+    "pdfError": "Failed to generate PDF file.",
+    "targetName": "Target Name",
+    "visitTime": "Visit Time",
+    "reportNotes": "Report Notes",
+    "close": "Close",
+    "detecting": "Detecting location...",
+    "locationError": "Failed to get location. Please check your GPS settings.",
+    "highAccuracy": "High Accuracy (GPS)",
+    "lowAccuracy": "Low Accuracy (Network)",
+    "detectLocation": "Detect My Location"
+  },
+  "input": {
+    "uploadPrompt": "Click to upload map or image",
+    "uploadFormat": "Format: JPG, PNG, WEBP",
+    "xyInstruction": "Click to add. Drag center to move. Drag edge to resize.",
+    "removeImage": "Remove Image",
+    "remove": "Remove",
+    "youtubePlaceholder": "Paste YouTube Link here...",
+    "previewNewTab": "Preview in new tab",
+    "removeFile": "Remove file",
+    "clear": "Clear",
+    "loading": "Loading...",
+    "loadingContent": "Loading content...",
+    "signature": "Signature",
+    "done": "Done",
+    "colorPlaceholder": "#000000",
+    "bold": "Bold (Ctrl+B)",
+    "italic": "Italic (Ctrl+I)",
+    "underline": "Underline (Ctrl+U)",
+    "strikethrough": "Strikethrough",
+    "heading1": "Heading 1",
+    "heading2": "Heading 2",
+    "bulletedList": "Bulleted List",
+    "numberedList": "Numbered List",
+    "alignLeft": "Align Left",
+    "alignCenter": "Align Center",
+    "alignRight": "Align Right",
+    "justify": "Justify",
+    "richText": "Type your content here...",
+    "eraser": "Eraser",
+    "download": "Download",
+    "undo": "Undo",
+    "save": "Save",
+    "fullscreen": "Fullscreen",
+    "minimize": "Minimize",
+    "upload": "Upload Layer",
+    "color": "Pick Color",
+    "size": "Brush Size"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "feedback": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "loading": "Loading...",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "validation": {
+    "invalidEmail": "Please enter a valid email format.",
+    "invalidPhone": "Please enter a valid phone number (digits).",
+    "invalidNumber": "Only digits and optional minus sign are allowed.",
+    "invalidDecimal": "Only digits, decimal separator, and optional minus sign are allowed.",
+    "invalidPercentage": "Must be a valid percentage."
+  },
+  "placeholder": {
+    "text": "Enter text...",
+    "longText": "Enter detailed text here...",
+    "email": "example@email.com",
+    "phone": "+62...",
+    "number": "e.g. 10",
+    "decimal": "e.g. 10.5",
+    "percentage": "0",
+    "price": "e.g. 150,000",
+    "selectOption": "Select an option",
+    "searchOption": "Search...",
+    "noOptions": "No options found"
+  },
+  "home": {
+    "title": "Vibe Boilerplate",
+    "subtitle": "A modular, structured, and distinct architecture for your next big idea.",
+    "modularTitle": "Modular Structure",
+    "modularDesc": "Separation of concerns between UI, Logic, and Modules.",
+    "themeTitle": "Multi-Theme",
+    "themeDesc": "Built-in support for multiple design languages via tokens."
+  },
+  "shells": {
+    "mockContent": {
+      "dashboard": "Main Chart Area Simulation",
+      "dashboardDesc": "Content goes here inside the shell canvas",
+      "main": "Main Content / Data Table Simulation",
+      "mainDesc": "Content goes here inside the shell canvas",
+      "form": "Form Inputs Simulation",
+      "formDesc": "Form fields go here inside the shell canvas",
+      "detail": "Detail View Simulation",
+      "detailDesc": "Extended information goes here inside the shell canvas",
+      "settings": "Settings Form Simulation",
+      "settingsDesc": "Setting groups and toggles go here inside the shell canvas"
+    },
+    "showcase": {
+      "masterUI": "Master UI Enhancements",
+      "masterUIDesc": "A demonstration of integrated high-performance UI patterns including Whirl CSS animations, Spring-based motion components, and Rive interactive vectors.",
+      "whirlDesc": "Ultra-lightweight loading indicators using pure CSS.",
+      "springDesc": "Bouncy, tactile interactions powered by spring physics.",
+      "riveDesc": "Complex vector animations with high performance.",
+      "primaryAction": "Primary Action",
+      "secondary": "Secondary",
+      "ghost": "Ghost"
+    },
+    "shellNames": {
+      "enhancements": "Enhancements Shell",
+      "dashboard": "Dashboard Shell",
+      "main": "Main Shell",
+      "form": "Form Shell",
+      "detail": "Detail Shell",
+      "settings": "Settings Shell"
+    },
+    "last30Days": "Last 30 Days",
+    "globalAnalytics": "Global Analytics Overview",
+    "resourceManagement": "Resource Management System",
+    "resourceDetails": "Resource Details: {id}",
+    "managePreferences": "Manage your personal preference, security, and integration settings.",
+    "samples": {
+      "dashboardTitle": "Operational Dashboard",
+      "dashboardSubtitle": "Real-time system performance monitoring",
+      "mainTitle": "User Management",
+      "mainSubtitle": "Manage your team members and permissions here.",
+      "formTitle": "Create Professional Profile",
+      "formSubtitle": "Initialize your system identity",
+      "detailTitle": "Johnathan Doe",
+      "settingsTitle": "User Preferences"
+    }
+  },
+  "invoice": {
+    "title": "Invoice",
+    "billedTo": "Billed To",
+    "dateIssued": "Date Issued",
+    "description": "Description",
+    "price": "Price",
+    "subtotal": "Subtotal",
+    "tax": "Tax (10%)",
+    "totalAmount": "Total Amount",
+    "notes": "Notes: Please complete the payment within 14 days of receiving this invoice. Thank you for your business!",
+    "items": {
+      "consultation": "Professional Consultation Service",
+      "devModule": "Software Development Module (V3)",
+      "infrastructure": "Cloud Infrastructure Setup"
+    },
+    "downloadFlexible": "Download PDF Flexible",
+    "downloadA4": "Download PDF (A4)",
+    "printPreview": "Print Preview"
+  },
+  "scanner": {
+    "noCameras": "No cameras found on your device.",
+    "permissionError": "Failed to access camera. Please allow camera permissions.",
+    "requestingAccess": "Requesting camera access...",
+    "accessDenied": "Camera Access Denied"
+  },
+  "sample": {
+    "detectLocation": "Detect Location",
+    "swal": {
+      "success": "Success!",
+      "text": "This is a custom sweet alert simulation.",
+      "confirm": "Great"
+    },
+    "dataTable": "Data Table Plus",
+    "name": "Name",
+    "email": "Email",
+    "status": "Status",
+    "role": "Role",
+    "lastLogin": "Last Login",
+    "rowsSelected": "{count} Rows Selected",
+    "action1": "Action 1",
+    "action2": "Action 2",
+    "directImplementation": "Direct implementation using Table.tsx components.",
+    "verificationTitle": "Architecture Verification",
+    "verification": {
+      "structural": "Structural Primitives",
+      "p1": "Table Component",
+      "p2": "Header & Body",
+      "p3": "Footer (Full Support)",
+      "p4": "Caption Integration",
+      "interactive": "Interactive Elements",
+      "i1": "Controlled Checkboxes",
+      "i2": "Row Selection State",
+      "i3": "Hover Transitions",
+      "i4": "Even/Odd Striping",
+      "data": "Data Management",
+      "d1": "Global Search Hook",
+      "d2": "Dynamic Visibility",
+      "d3": "CSV/Excel Export Ready",
+      "d4": "Bulk Action Trigger",
+      "responsive": "Responsive Design",
+      "r1": "Horizontal Overflow",
+      "r2": "Mobile Padding (Tokens)",
+      "r3": "Touch Target Sizes",
+      "r4": "Adaptive Toolbars"
+    }
+  },
+  "viewport": {
+    "device": "Device",
+    "mobile": "Mobile",
+    "tablet": "Tablet",
+    "desktop": "Desktop",
+    "compact": "Compact"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "totalData": "total data",
+    "page": "Page"
+  },
+  "profile": {
+    "change": "Change Photo",
+    "remove": "Remove Photo",
+    "cropTitle": "Adjust Profile Photo",
+    "uploadInstruction": "Click to select photo",
+    "invalidType": "Only image files are allowed"
+  },
+  "emptyState": {
+    "noData": "No Data Found",
+    "noResults": "Your search did not yield any results",
+    "refresh": "Refresh",
+    "addFirst": "Add First Data"
+  },
+  "dataTable": {
+    "columns": "Columns",
+    "showHide": "Show/Hide Columns",
+    "export": "Export",
+    "noRecords": "No records available",
+    "reset": "Reset"
+  },
+  "tableSample": {
+    "title": "Complete Table Implementation",
+    "description": "Showcasing all primitives of Table.tsx including head, body, footer, caption, and checkboxes.",
+    "rawTitle": "Raw Table Primitive",
+    "invoice": "Invoice",
+    "status": "Status",
+    "method": "Payment Method",
+    "amount": "Amount",
+    "total": "Grand Total",
+    "summary": "This table shows the integration of all Table sub-components for maximum flexibility."
+  },
+  "wizard": {
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "step": "Step",
+    "personalInfo": "Personal Info",
+    "addressDetails": "Address Details",
+    "preferences": "Preferences",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "shippingAddress": "Shipping Address",
+    "notes": "Notes / Special Instructions",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "email@example.com",
+    "addressPlaceholder": "Type your address...",
+    "notesPlaceholder": "Optional comments...",
+    "completeAlert": "Registration Complete! Data: {data}"
+  },
+  "confirm": {
+    "title": "Confirmation",
+    "message": "Are you sure you want to proceed?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "error": {
+    "title": "Something Went Wrong",
+    "message": "Sorry, an error occurred while loading this page.",
+    "button": "Try Again"
+  },
+  "accordion": {
+    "title": "Accordion Master Showcase",
+    "subtitle": "Modular and responsive accordion implementation with smooth animations.",
+    "q1": "What is the Modular Vibe Architecture?",
+    "a1": "The Modular Vibe Architecture is a high-modularity monolith approach that separates UI components, business logic, and feature modules for maximum maintainability and scale.",
+    "q2": "Is this boilerplate production-ready?",
+    "a2": "Yes, it follows industry standards for performance, security, and accessibility, including localized text and dynamic design tokens.",
+    "q3": "How do I add a new module?",
+    "a3": "Simply create a new directory in /src/modules, add your logic to /src/logic, and register your routes in App.tsx.",
+    "dynamicTitle": "Dynamic Data Accordion",
+    "dynamicDesc": "This section demonstrates how to handle multiple open items and dynamic content switching."
+  },
+  "tabs": {
+    "more": "More"
+  },
+  "commandPalette": {
+    "placeholder": "Search menus or commands...",
+    "noResults": "No results found",
+    "shortcuts": "Shortcuts",
+    "back": "Back"
+  },
+  "switcher": {
+    "theme": "Switch Theme",
+    "language": "Switch Language",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "versatile": {
+    "title": "Versatile Master Components",
+    "tabs": {
+      "title": "Tabs & Segmented Control",
+      "pills": "Standard Pills",
+      "underline": "Underline (Elegant)",
+      "segmented": "Segmented (App-like)",
+      "pillsLabel": "Pills variant",
+      "underlineLabel": "Underline variant",
+      "segmentedLabel": "Segmented variant"
+    },
+    "sheet": {
+      "title": "Mobile Bottom Sheet",
+      "description": "Better ergonomics for mobile users. On desktop, it behaves like a centered bottom sheet.",
+      "open": "Open Bottom Sheet",
+      "quickActions": "Quick Actions",
+      "profile": "View Profile",
+      "billing": "Billing Settings",
+      "settings": "App Settings",
+      "signOut": "Sign Out"
+    },
+    "switchers": {
+      "title": "Theme & Language Switchers (Elements)",
+      "description": "Modular components to handle appearance and localization. Can be placed anywhere.",
+      "combined": "Combined Switcher",
+      "themeOnly": "Theme Only",
+      "languageOnly": "Language (Primary Button)"
+    },
+    "command": {
+      "title": "Command Palette (Search Master)",
+      "description": "Global search for menus and commands. Highly efficient for complex dashboards.",
+      "placeholder": "Search menus or commands..."
+    },
+    "confirm": {
+      "title": "Programmatic Confirm Hook",
+      "description": "Integrated with internal UI Modal. No need for external libraries when you want a consistent look.",
+      "standard": "Standard Confirmation",
+      "danger": "Danger/Delete Confirmation",
+      "globalTitle": "Global Confirmation",
+      "globalMessage": "This is a programmatic modal managed by GlobalContext. Do you want to proceed with this sample action?",
+      "dangerTitle": "Danger Zone",
+      "dangerMessage": "Are you sure you want to delete this session? This action cannot be undone.",
+      "dangerConfirm": "Yes, Delete",
+      "alertConfirmed": "Action Confirmed!",
+      "alertDeleted": "Deleted successfully"
+    },
+    "error": {
+      "title": "Error Handling",
+      "description": "Boundary catches all runtime errors and shows a polished recovery page.",
+      "simulate": "Simulate UI Crash"
+    },
+    "gridMenu": {
+      "title": "Grid Icon Menu",
+      "description": "Adaptive grid for dashboard navigation elements with labels and badges."
+    },
+    "slides": {
+      "s1": {
+        "title": "Premium Field Guide",
+        "subtitle": "Exclusive insights for your professional journey. Learn from the best in the industry.",
+        "btn": "View Details"
+      },
+      "s2": {
+        "title": "Summer Collection",
+        "subtitle": "Discover our new arrivals and special offers. Limited time only.",
+        "btn": "Shop Now"
+      }
+    },
+    "menu": {
+      "events": "Events",
+      "myOrders": "My Orders",
+      "eLearning": "E-Learning",
+      "achievement": "Achievement",
+      "message": "Message",
+      "wishlist": "Wishlist",
+      "notification": "Notification",
+      "settings": "Settings"
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "common": {
+    "welcome": "Selamat datang di VibeApp",
+    "getStarted": "Mulai Sekarang",
+    "explore": "Eksplorasi Modul Sampel",
+    "add": "Tambah Baru",
+    "edit": "Ubah",
+    "delete": "Hapus",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "back": "Kembali",
+    "home": "Beranda",
+    "architecture": "Arsitektur",
+    "processing": "Sedang memproses...",
+    "yes": "Ya",
+    "no": "Tidak",
+    "saveChanges": "Simpan Perubahan",
+    "autosaved": "Tersimpan otomatis",
+    "requiredFields": "Kolom bertanda bintang wajib diisi",
+    "search": "Cari data...",
+    "searchAkun": "Cari username, kode, atau telepon...",
+    "filters": "Filter",
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "confirm": "Konfirmasi",
+    "approxRadius": "Perkiraan Radius: {radius} meter",
+    "loadingAnimation": "Memuat Animasi...",
+    "barcode": "Barcode"
+  },
+  "nfc": {
+    "title": "Pembaca NFC",
+    "prompt": "Tempelkan tag NFC Anda",
+    "scanning": "Memindai...",
+    "unsupported": "NFC tidak didukung di browser ini.",
+    "error": "Gagal membaca tag NFC. Pastikan NFC aktif.",
+    "success": "Tag NFC Berhasil Dibaca",
+    "data": "Data Tag"
+  },
+  "voice": {
+    "tts": {
+      "play": "Putar Suara",
+      "stop": "Hentikan Suara",
+      "reading": "Membaca teks..."
+    },
+    "stt": {
+      "start": "Mulai Rekam",
+      "stop": "Berhenti Rekam",
+      "listening": "Mendengarkan...",
+      "error": "Izin mikrofon ditolak atau tidak didukung."
+    }
+  },
+  "annotation": {
+    "title": "Anotasi Gambar",
+    "save": "Simpan Anotasi",
+    "pen": "Pena",
+    "brush": "Kuas",
+    "size": "Ukuran",
+    "color": "Warna",
+    "clear": "Hapus Semua",
+    "undo": "Urungkan",
+    "fullscreen": "Tampilan Layar Penuh",
+    "opacity": "Opasitas",
+    "upload": "Unggah Gambar"
+  },
+  "location": {
+    "highIntegrity": "Lokasi Integritas Tinggi",
+    "status": "Status GPS",
+    "detecting": "Mendeteksi lokasi akurasi tinggi...",
+    "gpsActive": "GPS Aktif",
+    "signalFallback": "Fallback Sinyal / Tower",
+    "fakeDetected": "Potensi lokasi palsu/VPN terdeteksi!",
+    "noPermission": "Izin lokasi ditolak.",
+    "accuracy": "Akurasi: {accuracy}m"
+  },
+  "time": {
+    "actual": "Waktu Aktual Jaringan",
+    "fetching": "Sinkronisasi dengan server waktu global...",
+    "syncSuccess": "Waktu berhasil disinkronkan",
+    "syncFailed": "Sinkronisasi gagal, menggunakan jam perangkat",
+    "drift": "Drift jam: {drift}ms",
+    "absoluteUtc": "Waktu UTC Absolut",
+    "deviceTz": "Zona Waktu Perangkat",
+    "integrity": "Integritas Zona Waktu",
+    "integrityOk": "Normal",
+    "integrityWarn": "Potensi Manipulasi",
+    "mismatchDesc": "Ketidakcocokan zona waktu terdeteksi dengan server waktu."
+  },
+  "map": {
+    "title": "Monitoring Kunjungan",
+    "route": "Rute Kunjungan",
+    "pointDetail": "Detail Titik Kunjungan",
+    "visitedAt": "Dikunjungi pada",
+    "noPoints": "Tidak ada titik yang tercatat untuk rute ini.",
+    "location": "Lokasi",
+    "back": "Kembali ke Daftar",
+    "inputCoordinate": "Koordinat",
+    "invalidFormat": "Format tidak valid. Gunakan 'Latitude, Longitude'",
+    "loadingAddress": "Memuat alamat...",
+    "setRadius": "Radius & Posisi",
+    "inputRadius": "Input Radius (meter)",
+    "radiusLabel": "Radius (Meter)",
+    "latLongRad": "Lat, Long, Rad",
+    "representative": "Perwakilan",
+    "totalVisits": "Total Kunjungan",
+    "completion": "Penyelesaian",
+    "totalTime": "Total Waktu",
+    "inRange": "Dalam Radius",
+    "visitTimeline": "Timeline Kunjungan",
+    "exportPdf": "Ekspor PDF",
+    "teamOverview": "Ikhtisar Tim",
+    "activityToday": "Aktivitas Hari Ini",
+    "openGoogleMaps": "Buka di Google Maps",
+    "startVisit": "Mulai (Kunjungan Pertama)",
+    "endVisit": "Selesai (Kunjungan Terakhir)",
+    "path": "Jalur",
+    "fullscreen": "Layar Penuh",
+    "exitFullscreen": "Keluar Layar Penuh",
+    "inputManually": "Input Koordinat Manual",
+    "allowPopups": "Harap izinkan popup untuk situs ini untuk melihat pratinjau PDF.",
+    "pdfError": "Gagal membuat file PDF.",
+    "targetName": "Nama Target",
+    "visitTime": "Waktu Kunjungan",
+    "reportNotes": "Catatan Laporan",
+    "close": "Tutup",
+    "detecting": "Mendeteksi lokasi...",
+    "locationError": "Gagal mendapatkan lokasi. Harap cek pengaturan GPS Anda.",
+    "highAccuracy": "Akurasi Tinggi (GPS)",
+    "lowAccuracy": "Akurasi Rendah (Jaringan)",
+    "detectLocation": "Deteksi Lokasi Saya"
+  },
+  "input": {
+    "uploadPrompt": "Klik untuk unggah peta atau gambar",
+    "uploadFormat": "Format: JPG, PNG, WEBP",
+    "xyInstruction": "Klik untuk menambah. Seret tengah untuk pindah. Seret tepi untuk ubah ukuran.",
+    "removeImage": "Hapus Gambar",
+    "remove": "Hapus",
+    "youtubePlaceholder": "Tempel tautan YouTube di sini...",
+    "previewNewTab": "Pratinjau di tab baru",
+    "removeFile": "Hapus file",
+    "clear": "Bersihkan",
+    "loading": "Memuat...",
+    "loadingContent": "Memuat konten...",
+    "signature": "Tanda Tangan",
+    "done": "Selesai",
+    "colorPlaceholder": "#000000",
+    "bold": "Tebal (Ctrl+B)",
+    "italic": "Miring (Ctrl+I)",
+    "underline": "Garis Bawah (Ctrl+U)",
+    "strikethrough": "Coret",
+    "heading1": "Judul 1",
+    "heading2": "Judul 2",
+    "bulletedList": "Daftar Simbol",
+    "numberedList": "Daftar Angka",
+    "alignLeft": "Rata Kiri",
+    "alignCenter": "Rata Tengah",
+    "alignRight": "Rata Kanan",
+    "justify": "Rata Kiri Kanan",
+    "richText": "Ketik konten Anda di sini...",
+    "eraser": "Penghapus",
+    "download": "Unduh",
+    "undo": "Urungkan",
+    "save": "Simpan",
+    "fullscreen": "Layar Penuh",
+    "minimize": "Kecilkan",
+    "upload": "Unggah Lapisan",
+    "color": "Pilih Warna",
+    "size": "Ukuran Kuas"
+  },
+  "status": {
+    "active": "Aktif",
+    "inactive": "Tidak Aktif",
+    "pending": "Menunggu",
+    "completed": "Selesai",
+    "failed": "Gagal"
+  },
+  "feedback": {
+    "success": "Berhasil",
+    "error": "Kesalahan",
+    "warning": "Peringatan",
+    "info": "Informasi",
+    "loading": "Memuat...",
+    "unexpectedError": "Terjadi kesalahan yang tidak terduga"
+  },
+  "validation": {
+    "invalidEmail": "Harap masukkan format email yang valid.",
+    "invalidPhone": "Harap masukkan format nomor telepon yang valid (hanya angka).",
+    "invalidNumber": "Hanya angka dan tanda minus yang diperbolehkan.",
+    "invalidDecimal": "Hanya angka, tanda desimal, dan tanda minus yang diperbolehkan.",
+    "invalidPercentage": "Harap masukkan persentase yang valid."
+  },
+  "placeholder": {
+    "text": "Masukkan teks...",
+    "longText": "Masukkan detail teks di sini...",
+    "email": "contoh@email.com",
+    "phone": "+62...",
+    "number": "misal. 10",
+    "decimal": "misal. 10.5",
+    "percentage": "0",
+    "price": "misal. 150.000",
+    "selectOption": "Pilih sebuah opsi",
+    "searchOption": "Cari...",
+    "noOptions": "Pilihan tidak ditemukan"
+  },
+  "home": {
+    "title": "Vibe Boilerplate",
+    "subtitle": "Arsitektur yang modular, terstruktur, dan unik untuk ide besar Anda berikutnya.",
+    "modularTitle": "Struktur Modular",
+    "modularDesc": "Pemisahan tanggung jawab antara UI, Logika, dan Modul.",
+    "themeTitle": "Multi-Tema",
+    "themeDesc": "Dukungan bawaan untuk berbagai bahasa desain melalui token."
+  },
+  "shells": {
+    "mockContent": {
+      "dashboard": "Simulasi Area Grafik Utama",
+      "dashboardDesc": "Konten diletakkan di sini di dalam kanvas shell",
+      "main": "Simulasi Konten Utama / Tabel Data",
+      "mainDesc": "Konten diletakkan di sini di dalam kanvas shell",
+      "form": "Simulasi Input Formulir",
+      "formDesc": "Field formulir diletakkan di sini di dalam kanvas shell",
+      "detail": "Simulasi Tampilan Detail",
+      "detailDesc": "Informasi lanjutan diletakkan di sini di dalam kanvas shell",
+      "settings": "Simulasi Formulir Pengaturan",
+      "settingsDesc": "Grup pengaturan dan toggle diletakkan di sini di dalam kanvas shell"
+    },
+    "showcase": {
+      "masterUI": "Peningkatan UI Master",
+      "masterUIDesc": "Demonstrasi dari pola UI performa tinggi yang terintegrasi termasuk animasi CSS Whirl, komponen pergerakan Spring, dan vektor interaktif Rive.",
+      "whirlDesc": "Indikator pemuatan ultra-ringan menggunakan CSS murni.",
+      "springDesc": "Interaksi yang memantul dan taktil didukung oleh fisika spring.",
+      "riveDesc": "Animasi vektor kompleks dengan performa tinggi.",
+      "primaryAction": "Aksi Utama",
+      "secondary": "Sekunder",
+      "ghost": "Ghost"
+    },
+    "shellNames": {
+      "enhancements": "Shell Peningkatan",
+      "dashboard": "Shell Dasbor",
+      "main": "Shell Utama",
+      "form": "Shell Formulir",
+      "detail": "Shell Detail",
+      "settings": "Shell Pengaturan"
+    },
+    "last30Days": "30 Hari Terakhir",
+    "globalAnalytics": "Ikhtisar Analitik Global",
+    "resourceManagement": "Sistem Manajemen Sumber Daya",
+    "resourceDetails": "Detail Sumber Daya: {id}",
+    "managePreferences": "Kelola preferensi pribadi, keamanan, dan pengaturan integrasi Anda.",
+    "samples": {
+      "dashboardTitle": "Dasbor Operasional",
+      "dashboardSubtitle": "Pemantauan performa sistem real-time",
+      "mainTitle": "Manajemen Pengguna",
+      "mainSubtitle": "Kelola anggota tim Anda dan izinnya di sini.",
+      "formTitle": "Buat Profil Profesional",
+      "formSubtitle": "Inisialisasi identitas sistem Anda",
+      "detailTitle": "Johnathan Doe",
+      "settingsTitle": "Preferensi Pengguna"
+    }
+  },
+  "invoice": {
+    "title": "Faktur",
+    "billedTo": "Ditagihkan Ke",
+    "dateIssued": "Tanggal Terbit",
+    "description": "Deskripsi",
+    "price": "Harga",
+    "subtotal": "Subtotal",
+    "tax": "Pajak (10%)",
+    "totalAmount": "Total Jumlah",
+    "notes": "Catatan: Harap lengkapi pembayaran dalam 14 hari setelah menerima faktur ini. Terima kasih atas kerja sama Anda!",
+    "items": {
+      "consultation": "Layanan Konsultasi Profesional",
+      "devModule": "Modul Pengembangan Perangkat Lunak (V3)",
+      "infrastructure": "Pengaturan Infrastruktur Cloud"
+    },
+    "downloadFlexible": "Unduh PDF Fleksibel",
+    "downloadA4": "Unduh PDF (A4)",
+    "printPreview": "Pratinjau Cetak"
+  },
+  "scanner": {
+    "noCameras": "Tidak ada kamera ditemukan di perangkat Anda.",
+    "permissionError": "Gagal mengakses kamera. Harap izinkan izin kamera.",
+    "requestingAccess": "Meminta akses kamera...",
+    "accessDenied": "Akses Kamera Ditolak"
+  },
+  "sample": {
+    "detectLocation": "Deteksi Lokasi",
+    "swal": {
+      "success": "Berhasil!",
+      "text": "Ini adalah simulasi sweet alert kustom.",
+      "confirm": "Luar Biasa"
+    },
+    "dataTable": "Tabel Data Plus",
+    "name": "Nama",
+    "email": "Email",
+    "status": "Status",
+    "role": "Peran",
+    "lastLogin": "Login Terakhir",
+    "rowsSelected": "{count} Baris Terpilih",
+    "action1": "Aksi 1",
+    "action2": "Aksi 2",
+    "directImplementation": "Implementasi langsung menggunakan komponen Table.tsx.",
+    "verificationTitle": "Verifikasi Arsitektur",
+    "verification": {
+      "structural": "Primitif Struktural",
+      "p1": "Komponen Tabel",
+      "p2": "Header & Body",
+      "p3": "Footer (Dukungan Penuh)",
+      "p4": "Integrasi Caption",
+      "interactive": "Elemen Interaktif",
+      "i1": "Checkbox Terkontrol",
+      "i2": "Status Pilihan Baris",
+      "i3": "Transisi Hover",
+      "i4": "Striping Genap/Ganjil",
+      "data": "Manajemen Data",
+      "d1": "Hook Pencarian Global",
+      "d2": "Visibilitas Dinamis",
+      "d3": "Siap Ekspor CSV/Excel",
+      "d4": "Pemicu Aksi Massal",
+      "responsive": "Desain Responsif",
+      "r1": "Overflow Horisontal",
+      "r2": "Padding Mobile (Token)",
+      "r3": "Ukuran Target Sentuh",
+      "r4": "Toolbar Adaptif"
+    }
+  },
+  "viewport": {
+    "device": "Perangkat",
+    "mobile": "Mobile",
+    "tablet": "Tablet",
+    "desktop": "Desktop",
+    "compact": "Kompak"
+  },
+  "pagination": {
+    "info": "{start}-{end} dari {total}",
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "page": "Halaman"
+  },
+  "profile": {
+    "change": "Ubah Foto",
+    "remove": "Hapus Foto",
+    "cropTitle": "Sesuaikan Foto Profil",
+    "uploadInstruction": "Klik untuk pilih foto",
+    "invalidType": "Hanya file gambar yang diperbolehkan"
+  },
+  "emptyState": {
+    "noData": "Data Tidak Ditemukan",
+    "noResults": "Pencarian Anda tidak membuahkan hasil",
+    "refresh": "Segarkan",
+    "addFirst": "Tambah Data Pertama"
+  },
+  "dataTable": {
+    "columns": "Kolom",
+    "showHide": "Tampilkan/Sembunyikan Kolom",
+    "export": "Ekspor",
+    "noRecords": "Tidak ada data yang tersedia",
+    "reset": "Atur Ulang"
+  },
+  "tableSample": {
+    "title": "Implementasi Tabel Lengkap",
+    "description": "Menampilkan semua primitif dari Table.tsx termasuk head, body, footer, caption, dan checkbox.",
+    "rawTitle": "Primitif Tabel Mentah",
+    "invoice": "Faktur",
+    "status": "Status",
+    "method": "Metode Pembayaran",
+    "amount": "Jumlah",
+    "total": "Total Keseluruhan",
+    "summary": "Tabel ini menunjukkan integrasi semua sub-komponen Tabel untuk fleksibilitas maksimal."
+  },
+  "wizard": {
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "finish": "Selesai",
+    "step": "Langkah",
+    "personalInfo": "Informasi Pribadi",
+    "addressDetails": "Detail Alamat",
+    "preferences": "Preferensi",
+    "fullName": "Nama Lengkap",
+    "emailAddress": "Alamat Email",
+    "shippingAddress": "Alamat Pengiriman",
+    "notes": "Catatan / Instruksi Khusus",
+    "namePlaceholder": "Masukkan nama Anda",
+    "emailPlaceholder": "email@contoh.com",
+    "addressPlaceholder": "Ketik alamat Anda...",
+    "notesPlaceholder": "Komentar opsional...",
+    "completeAlert": "Pendaftaran Selesai! Data: {data}"
+  },
+  "confirm": {
+    "title": "Konfirmasi",
+    "message": "Apakah Anda yakin ingin melanjutkan?",
+    "yes": "Ya",
+    "no": "Tidak"
+  },
+  "error": {
+    "title": "Terjadi Kesalahan",
+    "message": "Maaf, terjadi kesalahan saat memuat halaman ini.",
+    "button": "Coba Lagi"
+  },
+  "accordion": {
+    "title": "Showcase Master Accordion",
+    "subtitle": "Implementasi accordion modular dan responsif dengan animasi yang halus.",
+    "q1": "Apa itu Arsitektur Modular Vibe?",
+    "a1": "Arsitektur Modular Vibe adalah pendekatan monolit dengan modularitas tinggi yang memisahkan komponen UI, logika bisnis, dan modul fitur untuk pemeliharaan dan skala maksimum.",
+    "q2": "Apakah boilerplate ini siap untuk produksi?",
+    "a2": "Ya, ini mengikuti standar industri untuk performa, keamanan, dan aksesibilitas, termasuk teks terlokalisasi dan token desain dinamis.",
+    "q3": "Bagaimana cara menambah modul baru?",
+    "a3": "Cukup buat direktori baru di /src/modules, tambahkan logika Anda ke /src/logic, dan daftarkan rute Anda di App.tsx.",
+    "dynamicTitle": "Accordion Data Dinamis",
+    "dynamicDesc": "Bagian ini mendemonstrasikan cara menangani beberapa item yang terbuka dan perpindahan konten dinamis."
+  },
+  "tabs": {
+    "more": "Lainnya"
+  },
+  "commandPalette": {
+    "placeholder": "Cari menu atau perintah...",
+    "noResults": "Tidak ada hasil yang cocok",
+    "shortcuts": "Pintasan",
+    "back": "Kembali"
+  },
+  "switcher": {
+    "theme": "Ganti Tema",
+    "language": "Ganti Bahasa",
+    "light": "Terang",
+    "dark": "Gelap"
+  },
+  "versatile": {
+    "title": "Komponen Master Serbaguna",
+    "tabs": {
+      "title": "Tab & Kontrol Bersegmen",
+      "pills": "Pills Standar",
+      "underline": "Underline (Elegan)",
+      "segmented": "Bersegmen (Gaya Aplikasi)",
+      "pillsLabel": "Varian Pills",
+      "underlineLabel": "Varian Underline",
+      "segmentedLabel": "Varian Bersegmen"
+    },
+    "sheet": {
+      "title": "Bottom Sheet Mobile",
+      "description": "Ergonomi lebih baik untuk pengguna mobile. Di desktop, berperan sebagai bottom sheet tengah.",
+      "open": "Buka Bottom Sheet",
+      "quickActions": "Tindakan Cepat",
+      "profile": "Lihat Profil",
+      "billing": "Pengaturan Penagihan",
+      "settings": "Pengaturan Aplikasi",
+      "signOut": "Keluar"
+    },
+    "switchers": {
+      "title": "Pengalih Tema & Bahasa (Elemen)",
+      "description": "Komponen modular untuk menangani tampilan dan lokalisasi. Bisa diletakkan di mana saja.",
+      "combined": "Pengalih Gabungan",
+      "themeOnly": "Tema Saja",
+      "languageOnly": "Bahasa (Tombol Utama)"
+    },
+    "command": {
+      "title": "Komando Palet (Pencarian Master)",
+      "description": "Pencarian global untuk menu dan perintah. Sangat efisien untuk dashboard yang kompleks.",
+      "placeholder": "Cari menu atau perintah..."
+    },
+    "confirm": {
+      "title": "Hook Konfirmasi Programatik",
+      "description": "Terintegrasi dengan Modal UI internal. Tidak butuh library eksternal untuk tampilan yang konsisten.",
+      "standard": "Konfirmasi Standar",
+      "danger": "Konfirmasi Bahaya/Hapus",
+      "globalTitle": "Konfirmasi Global",
+      "globalMessage": "Ini adalah modal programatik yang dikelola oleh GlobalContext. Apakah Anda ingin melanjutkan tindakan sampel ini?",
+      "dangerTitle": "Zona Bahaya",
+      "dangerMessage": "Apakah Anda yakin ingin menghapus sesi ini? Tindakan ini tidak dapat dibatalkan.",
+      "dangerConfirm": "Ya, Hapus",
+      "alertConfirmed": "Tindakan Dikonfirmasi!",
+      "alertDeleted": "Berhasil dihapus"
+    },
+    "error": {
+      "title": "Penanganan Kesalahan",
+      "description": "Boundary menangkap semua kesalahan runtime dan menampilkan halaman pemulihan yang dipoles.",
+      "simulate": "Simulasikan Crash UI"
+    },
+    "gridMenu": {
+      "title": "Menu Ikon Grid",
+      "description": "Grid adaptif untuk elemen navigasi dashboard dengan label dan lencana (badge)."
+    },
+    "slides": {
+      "s1": {
+        "title": "Panduan Lapangan Premium",
+        "subtitle": "Wawasan eksklusif untuk perjalanan profesional Anda. Belajar dari yang terbaik di industri.",
+        "btn": "Lihat Detail"
+      },
+      "s2": {
+        "title": "Koleksi Musim Panas",
+        "subtitle": "Temukan pendatang baru kami dan penawaran khusus. Waktu terbatas.",
+        "btn": "Belanja Sekarang"
+      }
+    },
+    "menu": {
+      "events": "Acara",
+      "myOrders": "Pesanan Saya",
+      "eLearning": "E-Learning",
+      "achievement": "Pencapaian",
+      "message": "Pesan",
+      "wishlist": "Daftar Keinginan",
+      "notification": "Notifikasi",
+      "settings": "Pengaturan"
+    }
+  }
+}

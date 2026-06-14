@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme {
+  /* --- TYPOGRAPHY (EXACT TOKEN NAMES) --- */
+  --font-FontFamilyPrimary: var(--FontFamilyPrimary);
+  --font-FontFamilySecondary: var(--FontFamilySecondary);
+  
+  --text-FontSizeDisplay: var(--FontSizeDisplay);
+  --text-FontSizeH1: var(--FontSizeH1);
+  --text-FontSizeH2: var(--FontSizeH2);
+  --text-FontSizeH3: var(--FontSizeH3);
+  --text-FontSizeH4: var(--FontSizeH4);
+  --text-FontSizeBase: var(--FontSizeBase);
+  --text-FontSizeSm: var(--FontSizeSm);
+  --text-FontSizeXs: var(--FontSizeXs);
+  --text-FontSizeNano: var(--FontSizeNano);
+
+  --leading-LineHeightTight: var(--LineHeightTight);
+  --leading-LineHeightNormal: var(--LineHeightNormal);
+  --leading-LineHeightRelaxed: var(--LineHeightRelaxed);
+
+  /* --- TYPOGRAPHY (ALIASES FOR COMPATIBILITY) --- */
+  --font-sans: var(--FontFamilyPrimary);
+  --font-display: var(--FontFamilySecondary);
+  --text-display: var(--FontSizeDisplay);
+  --text-h1: var(--FontSizeH1);
+  --text-h2: var(--FontSizeH2);
+  --text-h3: var(--FontSizeH3);
+  --text-h4: var(--FontSizeH4);
+  --text-base: var(--FontSizeBase);
+  --text-sm: var(--FontSizeSm);
+  --text-xs: var(--FontSizeXs);
+  --text-nano: var(--FontSizeNano);
+  --leading-tight: var(--LineHeightTight);
+  --leading-normal: var(--LineHeightNormal);
+  --leading-relaxed: var(--LineHeightRelaxed);
+
+  /* --- COLORS (EXACT TOKEN NAMES) --- */
+  --color-PrimaryLight: var(--PrimaryLight);
+  --color-PrimaryDark: var(--PrimaryDark);
+  --color-Slate50: var(--Slate50);
+  --color-Slate100: var(--Slate100);
+  --color-Slate200: var(--Slate200);
+  --color-Slate300: var(--Slate300);
+  --color-Slate400: var(--Slate400);
+  --color-Slate500: var(--Slate500);
+  --color-Slate600: var(--Slate600);
+  --color-Slate700: var(--Slate700);
+  --color-Slate800: var(--Slate800);
+  --color-Slate900: var(--Slate900);
+  --color-Black: var(--Black);
+  --color-White: var(--White);
+
+  --color-ColorBg: var(--ColorBg);
+  --color-ColorBgSecondary: var(--ColorBgSecondary);
+  --color-ColorPrimary: var(--ColorPrimary);
+  --color-ColorSecondary: var(--ColorSecondary);
+  --color-ColorTertiary: var(--ColorTertiary);
+  --color-ColorSidebar: var(--ColorSidebar);
+  --color-ColorSidebarForeground: var(--ColorSidebarForeground);
+  --color-ColorSidebarAccent: var(--ColorSidebarAccent);
+  --color-ColorSidebarBorder: var(--ColorSidebarBorder);
+  --color-ColorSidebarRing: var(--ColorSidebarRing);
+  --color-ColorBgInverse: var(--ColorBgInverse);
+  --color-TextColorBase: var(--TextColorBase);
+  --color-TextColorMuted: var(--TextColorMuted);
+  
+  --color-FeedbackColorSuccess: var(--FeedbackColorSuccess);
+  --color-FeedbackColorWarning: var(--FeedbackColorWarning);
+  --color-FeedbackColorError: var(--FeedbackColorError);
+  --color-FeedbackColorInfo: var(--FeedbackColorInfo);
+
+  /* --- COLORS (ALIASES) --- */
+  --color-Bg: var(--ColorBg);
+  --color-BgSecondary: var(--ColorBgSecondary);
+  --color-Primary: var(--ColorPrimary);
+  --color-Secondary: var(--ColorSecondary);
+  --color-Tertiary: var(--ColorTertiary);
+  --color-Sidebar: var(--ColorSidebar);
+  --color-SidebarForeground: var(--ColorSidebarForeground);
+  --color-SidebarAccent: var(--ColorSidebarAccent);
+  --color-SidebarBorder: var(--ColorSidebarBorder);
+  --color-SidebarRing: var(--ColorSidebarRing);
+  --color-BgInverse: var(--ColorBgInverse);
+  --color-TextBase: var(--TextColorBase);
+  --color-TextMuted: var(--TextColorMuted);
+  --color-Success: var(--FeedbackColorSuccess);
+  --color-Warning: var(--FeedbackColorWarning);
+  --color-Error: var(--FeedbackColorError);
+  --color-Info: var(--FeedbackColorInfo);
+
+  /* Opacities */
+  --OpacityOpaque: var(--OpacityOpaque);
+  --OpacityHigh: var(--OpacityHigh);
+  --opacity-subtle: var(--OpacitySubtle);
+  --opacity-muted: var(--OpacityMuted);
+
+  --border-width-BorderNone: var(--BorderNone);
+  --border-width-BorderThin: var(--BorderThin);
+  --border-width-BorderMedium: var(--BorderMedium);
+  --border-width-BorderThick: var(--BorderThick);
+
+  /* BREAKPOINTS DISABLED - Use Viewport Engine (isMobile) instead */
+  /* --breakpoint-sm: var(--BreakpointSm); */
+  /* --breakpoint-md: var(--BreakpointMd); */
+  /* --breakpoint-lg: var(--BreakpointLg); */
+  /* --breakpoint-xl: var(--BreakpointXl); */
+  /* --breakpoint-2xl: var(--Breakpoint2xl); */
+
+  --animate-duration-DurationFast: var(--DurationFast);
+  --animate-duration-DurationMid: var(--DurationMid);
+  --animate-duration-DurationSlow: var(--DurationSlow);
+
+  --duration-DurationFast: var(--DurationFast);
+  --duration-DurationMid: var(--DurationMid);
+  --duration-DurationSlow: var(--DurationSlow);
+
+  /* RADII */
+  --radius-RadiusNone: var(--RadiusNone);
+  --radius-RadiusTiny: var(--RadiusTiny);
+  --radius-RadiusSmall: var(--RadiusSmall);
+  --radius-RadiusMedium: var(--RadiusMedium);
+  --radius-RadiusBase: var(--RadiusBase);
+  --radius-RadiusLarge: var(--RadiusLarge);
+  --radius-RadiusFull: var(--RadiusFull);
+
+  /* SHADOWS (ELEVATIONS) */
+  --shadow-ElevationFlat: var(--ElevationFlat);
+  --shadow-ElevationLow: var(--ElevationLow);
+  --shadow-ElevationNormal: var(--ElevationNormal);
+  --shadow-ElevationHigh: var(--ElevationHigh);
+  --shadow-ElevationSm: var(--ElevationSm);
+  --shadow-ElevationMd: var(--ElevationMd);
+  --shadow-ElevationLg: var(--ElevationLg);
+  --shadow-ElevationXl: var(--ElevationXl);
+
+  /* Z-INDEX */
+  --z-ZBelow: var(--ZBelow);
+  --z-ZFlat: var(--ZFlat);
+  --z-ZRaised: var(--ZRaised);
+  --z-ZOverlay: var(--ZOverlay);
+  --z-ZDropdown: var(--ZDropdown);
+  --z-ZSticky: var(--ZSticky);
+  --z-ZFixed: var(--ZFixed);
+  --z-ZModal: var(--ZModal);
+  --z-ZPopover: var(--ZPopover);
+  --z-ZTooltip: var(--ZTooltip);
+  --z-ZTopmost: var(--ZTopmost);
+
+  /* SPACING */
+  --spacing-SpacingExtraHuge: var(--SpacingExtraHuge);
+  --spacing-SpacingHuge: var(--SpacingHuge);
+  --spacing-SpacingExtraLarge: var(--SpacingExtraLarge);
+  --spacing-SpacingLarge: var(--SpacingLarge);
+  --spacing-SpacingMedium: var(--SpacingMedium);
+  --spacing-SpacingBase: var(--SpacingBase);
+  --spacing-SpacingSmall: var(--SpacingSmall);
+  --spacing-SpacingTiny: var(--SpacingTiny);
+  --spacing-SpacingNano: var(--SpacingNano);
+
+  /* CONTAINERS */
+  --width-container-ContainerXs: var(--ContainerXs);
+  --width-container-ContainerSm: var(--ContainerSm);
+  --width-container-ContainerMd: var(--ContainerMd);
+  --width-container-ContainerLg: var(--ContainerLg);
+  --width-container-ContainerXl: var(--ContainerXl);
+
+  --height-ContainerXs: var(--ContainerXs);
+  --height-ContainerSm: var(--ContainerSm);
+  --height-ContainerMd: var(--ContainerMd);
+  --height-ContainerLg: var(--ContainerLg);
+  --height-ContainerXl: var(--ContainerXl);
+
+  --max-width-ContainerXs: var(--ContainerXs);
+  --max-width-ContainerSm: var(--ContainerSm);
+  --max-width-ContainerMd: var(--ContainerMd);
+  --max-width-ContainerLg: var(--ContainerLg);
+  --max-width-ContainerXl: var(--ContainerXl);
+
+  /* --- ALIASES FOR EFFECTS & SPACING --- */
+  --opacity-opaque: var(--OpacityOpaque);
+  --opacity-high: var(--OpacityHigh);
+  --opacity-subtle: var(--OpacitySubtle);
+  --opacity-muted: var(--OpacityMuted);
+  --border-width-none: var(--BorderNone);
+  --border-width-thin: var(--BorderThin);
+  --border-width-medium: var(--BorderMedium);
+  --border-width-thick: var(--BorderThick);
+  --animate-duration-fast: var(--DurationFast);
+  --animate-duration-mid: var(--DurationMid);
+  --animate-duration-slow: var(--DurationSlow);
+  --duration-fast: var(--DurationFast);
+  --duration-mid: var(--DurationMid);
+  --duration-slow: var(--DurationSlow);
+  --radius-none: var(--RadiusNone);
+  --radius-tiny: var(--RadiusTiny);
+  --radius-small: var(--RadiusSmall);
+  --radius-medium: var(--RadiusMedium);
+  --radius-base: var(--RadiusBase);
+  --radius-large: var(--RadiusLarge);
+  --radius-full: var(--RadiusFull);
+  --shadow-flat: var(--ElevationFlat);
+  --shadow-low: var(--ElevationLow);
+  --shadow-normal: var(--ElevationNormal);
+  --shadow-high: var(--ElevationHigh);
+  --shadow-sm: var(--ElevationSm);
+  --shadow-md: var(--ElevationMd);
+  --shadow-lg: var(--ElevationLg);
+  --shadow-xl: var(--ElevationXl);
+  --z-below: var(--ZBelow);
+  --z-flat: var(--ZFlat);
+  --z-raised: var(--ZRaised);
+  --z-overlay: var(--ZOverlay);
+  --z-dropdown: var(--ZDropdown);
+  --z-sticky: var(--ZSticky);
+  --z-fixed: var(--ZFixed);
+  --z-modal: var(--ZModal);
+  --z-popover: var(--ZPopover);
+  --z-tooltip: var(--ZTooltip);
+  --z-topmost: var(--ZTopmost);
+  --spacing-extra-huge: var(--SpacingExtraHuge);
+  --spacing-huge: var(--SpacingHuge);
+  --spacing-extra-large: var(--SpacingExtraLarge);
+  --spacing-large: var(--SpacingLarge);
+  --spacing-medium: var(--SpacingMedium);
+  --spacing-base: var(--SpacingBase);
+  --spacing-small: var(--SpacingSmall);
+  --spacing-tiny: var(--SpacingTiny);
+  --spacing-nano: var(--SpacingNano);
+  --width-container-xs: var(--ContainerXs);
+  --width-container-sm: var(--ContainerSm);
+  --width-container-md: var(--ContainerMd);
+  --width-container-lg: var(--ContainerLg);
+  --width-container-xl: var(--ContainerXl);
+
+  /* --- OTHERS --- */
+  --padding-shell: var(--SpacingBase);
+
+  --translate-short: var(--TransformShort);
+  --translate-medium: var(--TransformMedium);
+  --translate-long: var(--TransformLong);
+  --scale-shrink: var(--TransformShrink);
+  --scale-grow: var(--TransformGrow);
+
+  --color-chart-1: var(--ChartColor1);
+  --color-chart-2: var(--ChartColor2);
+  --color-chart-3: var(--ChartColor3);
+  --color-chart-4: var(--ChartColor4);
+  --color-chart-5: var(--ChartColor5);
+  
+  --color-ChartColor1: var(--ChartColor1);
+  --color-ChartColor2: var(--ChartColor2);
+  --color-ChartColor3: var(--ChartColor3);
+  --color-ChartColor4: var(--ChartColor4);
+  --color-ChartColor5: var(--ChartColor5);
+
+  --background-image-g1: var(--GradientG1);
+  --background-image-g2: var(--GradientG2);
+  --background-image-g3: var(--GradientG3);
+  --background-image-g4: var(--GradientG4);
+  --background-image-g5: var(--GradientG5);
+  --background-image-maindi: var(--GradientMaindi);
+
+  --background-image-GradientG1: var(--GradientG1);
+  --background-image-GradientG2: var(--GradientG2);
+  --background-image-GradientG3: var(--GradientG3);
+  --background-image-GradientG4: var(--GradientG4);
+  --background-image-GradientG5: var(--GradientG5);
+  --background-image-GradientMaindi: var(--GradientMaindi);
+}
+
+@import "./ui/styles/global.css";
+
+:root {
+}
+
+@layer base {
+  * {
+    @apply border-ColorSidebarBorder outline-ColorPrimary/50;
+  }
+  html {
+    @apply font-FontFamilyPrimary;
+  }
+  input[type="date"],
+  input[type="time"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="week"] {
+    text-align: center;
+  }
+  input[type="date"]::-webkit-datetime-edit,
+  input[type="time"]::-webkit-datetime-edit,
+  input[type="datetime-local"]::-webkit-datetime-edit {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator,
+  input[type="time"]::-webkit-calendar-picker-indicator,
+  input[type="datetime-local"]::-webkit-calendar-picker-indicator,
+  input[type="month"]::-webkit-calendar-picker-indicator,
+  input[type="week"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 0.75rem;
+    cursor: pointer;
+  }
+}

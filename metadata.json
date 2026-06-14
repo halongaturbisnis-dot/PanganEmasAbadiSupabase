@@ -1,0 +1,11 @@
+{
+  "name": "Pangan Mas Abadi 2.0 MIGRASI SUPABASE",
+  "description": "Pangan Mas Abadi 2.0",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
